@@ -8,7 +8,7 @@ Sure! Here’s a draft of your README file:
 
 ## **1. Clean Code Principles**
 
-### **Recognizing Bad Code**
+## **Recognizing Bad Code**
 - Issues identified: **opacity, rigidity, inseparability, and fragility** due to unclear naming, hardcoded values, and implicit dependencies.
 - Refactoring steps:
   - Improved function names.
@@ -16,7 +16,7 @@ Sure! Here’s a draft of your README file:
   - Modularized dependencies.
   - Implemented effective logging.
 
-### **Key Takeaways from Clean Code Videos**
+## **Key Takeaways from Clean Code Videos**
 - **Readability & Clarity**: Write expressive code that communicates intent without excessive comments.
 - **Refactoring Techniques**:
   - "Extract Till You Drop"
@@ -29,35 +29,35 @@ Sure! Here’s a draft of your README file:
   - Rely on self-explanatory code.
 - **Code Formatting & File Management**: Keep files concise, structured, and maintainable.
 
-### **Application of Learnings**
+## **Application of Learnings**
 - Optimized code for readability, maintainability, and efficiency.
 
 ---
 
 ## **2. Tools, Best Practices & Professional Growth**
 
-### **AI & Automation Tools**
+## **AI & Automation Tools**
 - **Jammie**: Summarized video content for efficient learning.
 - **Claude AI**: Assisted in code refactoring and analysis.
 - **ChatGPT & Gemini**: Enhanced documentation and communication.
 
-### **Project & Team Collaboration**
+## **Project & Team Collaboration**
 - **Jira & Slack**: Improved task tracking and teamwork.
 - **Scalable Software Development**: Insights into long-term project structuring.
 
-### **Git & Version Control Improvements**
+## **Git & Version Control Improvements**
 - **Better Commit Habits**: Shifted to **frequent small commits**.
 - **SourceTree**: Simplified Git workflow management.
 - **Rebasing & Merging**: Enhanced integration and branch management.
 
-### **Software Engineering Best Practices**
+## **Software Engineering Best Practices**
 - **Spec Writing & Planning**:
   - Started planning before implementation.
   - Updated specifications as needed.
 - **Dependency Evaluation**:
   - Compared dependencies for better decision-making.
 
-### **Mentorship & Professional Growth**
+## **Mentorship & Professional Growth**
 - **Guidance from Prashant Sir**:
   - Balanced independence and collaboration.
   - Improved communication in standups and feedback loops.
@@ -69,7 +69,7 @@ Sure! Here’s a draft of your README file:
 
 ## **3. Software Development & Leadership Contributions**
 
-### **Library Screen Implementation**
+## **Library Screen Implementation**
 - **Item Addition**:
   - Added items linked to the **local database**.
 - **Persistent Marking of Added Items**:
@@ -79,29 +79,29 @@ Sure! Here’s a draft of your README file:
 - **Search & Filtering**:
   - Integrated search bar and filtering by categories.
 
-### **Closet Screen Development**
+## **Closet Screen Development**
 - Initiated development.
 - Merged multiple repositories into a single app.
 
-### **Team Collaboration & Leadership**
+## **Team Collaboration & Leadership**
 - **Hosted team meetings**.
 - Provided resources & Udemy courses.
 - Assisted teammates with Kotlin and other queries.
 - **Created a scalable app architecture**.
 
-### **Core Business Logic & Architecture**
+## **Core Business Logic & Architecture**
 - Developed base logic for API data fetching & dependency injection.
 - Established Room database structure & DAO utilities.
 - Discussed scalability challenges.
 
-### **Problem-Solving & Security Insights**
+## **Problem-Solving & Security Insights**
 - **Search Bar Implementation**:
   - Network-based Library Search.
   - Local MyCloset Search.
 - **API Key Security**:
   - Explored encryption techniques.
 
-### **Impact & Next Steps**
+## **Impact & Next Steps**
 - Improved team collaboration & knowledge sharing.
 - Built a scalable and structured project foundation.
 - Solved key implementation challenges.
@@ -111,33 +111,33 @@ Sure! Here’s a draft of your README file:
 
 ## **4. Key Architectural Decisions & Insights**
 
-### **API Authentication & Security**
+## **API Authentication & Security**
 - AiCloset API requires user authentication.
 
 ### **Theme Mode Considerations**
 - Supporting themes early is a good practice.
 - Initially implementing Light theme only.
 
-### **Color Storage Best Practices**
+## **Color Storage Best Practices**
 - Storing colors in a centralized Kotlin file.
 
 ### **Database Schema Planning**
 - Structured Room DB design focusing on products, closet items, and user preferences.
 
-### **Local Image Storage Strategy**
+## **Local Image Storage Strategy**
 - **Hybrid Approach**:
   - Store low-res copies & metadata in DB.
   - Store high-res images in file storage.
 
-### **Image Storage Visibility**
+## **Image Storage Visibility**
 - Images will be private and synced with the server.
 - No retention post-app uninstallation.
 
-### **Image Background Handling**
+## **Image Background Handling**
 - Check if AiCloset API provides background-free images.
 - Explore background removal techniques if not provided.
 
-### **Next Steps**
+## **Next Steps**
 - Design a scalable local database schema.
 - Implement efficient image storage.
 - Confirm API image format and plan background removal.
